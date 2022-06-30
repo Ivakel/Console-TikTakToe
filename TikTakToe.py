@@ -4,10 +4,10 @@ import time
 class TicTac:
 	def __init__(self):
 		self.board = [
-						[" ", " ", " "],
-						[" ", " ", " "],
-						[" ", " ", " "]
-					]
+				[" ", " ", " "],
+				[" ", " ", " "],
+				[" ", " ", " "]
+				]
 		self.back = []
 						
 	def reset_pos(self):
@@ -175,6 +175,5 @@ def play():
 	return "Its a tie..."
 		
 if __name__ == '__main__':
-	
 	print(play())
 	
